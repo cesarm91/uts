@@ -1,0 +1,79 @@
+#s3slider {
+	background-color:#57585A;
+   width: 1000px; /* important to be same as image width */ 
+   height: 250px; /* important to be same as image height */
+   position: relative; /* important */
+   overflow: hidden; /* important */
+   margin:0;
+   padding:0;
+}
+
+#s3sliderContent {
+   width: 1000px; /* important to be same as image width or wider */
+   position: absolute; /* important */
+   top: 0; /* important */
+   margin:0;
+   padding:0; /* important */
+}
+
+.s3sliderImage {
+   float: left; /* important */
+   position: relative; /* important */
+   display: none; /* important */
+   margin:0;
+   padding:0;
+}
+
+.s3sliderImage h1{
+	margin:0;
+	margin-bottom:10px;
+	padding:0;
+	font-size:26px;
+	color:#B2F415;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:normal
+}
+
+.s3sliderImage h2{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:normal
+}
+
+.s3sliderImage span {
+   margin:0;
+   text-align:left;
+   position: absolute; /* important */
+   padding:20px 0 0 20px;
+   /*filter: alpha(opacity=80); /* here you can set the opacity of box with text */
+   /*-moz-opacity: 0.8; /* here you can set the opacity of box with text */
+   /*-khtml-opacity: 0.8; /* here you can set the opacity of box with text */
+   /*opacity: 0.8; /* here you can set the opacity of box with text */
+   /*color: #fff;*/
+   display: none; /* important */
+
+   /*
+       if you put
+       top: 0; -> the box with text will be shown at the top of the image 
+       if you put
+       bottom: 0; -> the box with text will be shown at the bottom of the image
+   */
+}
+.clear {
+   clear: both;
+}
+.left {
+	top: 0;
+    left: 0;
+	width: 300px !important;
+	height: 250px;
+}
+.right {
+	right: 0;
+	top: 0;
+	width: 300px !important;
+	height: 250px;
+}

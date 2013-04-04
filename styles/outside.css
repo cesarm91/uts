@@ -1,0 +1,187 @@
+footer, header, nav{ display: block; }
+h1, h2, h3, h4, h5, h6 {margin:0px; padding:0px;}
+a,img{border:none;}
+a:link, a:hover, a:visited, a:active {text-decoration:none;color:inherit;}
+#main {clear:left}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+}
+
+.header-top{
+	margin:auto;
+	background-color:#57585A;
+	width:1000px;
+	padding:10px 0 20px 0;
+}
+
+.width-container{
+	width:1000px;
+	margin: 0 auto;
+}
+
+.header-top-left{
+	float:left;
+	font-size:10px;
+	font-family:Tahoma; 
+	color:#FFF; 
+}
+
+span.menu-first-header-top {
+	position:relative;  
+	background:url(../images/line-header-top.png) right no-repeat; 
+	padding:2px 15px 3px 15px;
+}
+
+span.menu-next-header-top {
+	position:relative;
+	background:url(../images/line-header-top.png) right no-repeat; 
+	padding:3px 15px 3px 15px;
+}
+
+span.menu-last-header-top {
+	color:#B2F018; 
+	position:relative;
+	background:url(../images/line-header-top.png) right no-repeat; 
+	padding:3px 15px 3px 15px;
+}
+
+.header-middle{
+	clear:left;
+	background-color:#FFF;
+}
+
+.header-bottom{
+	width:1000px;
+	clear:left;
+	margin:auto;
+	background-color:#8EC110;
+}
+
+.menu-first-header-bottom{
+	float:left;
+	font-size:15px;
+	position:relative;  
+	background:#8EC110; 
+	color:#FFF;
+	padding:10px 20px 10px 20px;
+}
+
+/******************MENU PPAL***************/
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+/******************MENU PPAL***************/
+.menu-first-header-bottom:hover{
+	background:url(../images/header-bottom-bg.png) top repeat-x;
+}
+
+.menu-next-header-bottom:hover{
+	background:url(../images/header-bottom-bg.png) top repeat-x;
+}
+
+.menu-last-header-bottom:hover{
+	background:url(../images/header-bottom-bg.png) top repeat-x;
+}
+
+#menu-header-active{
+	background:url(../images/header-bottom-bg.png) top repeat-x;
+}
+
+.menu-next-header-bottom{
+	float:left;
+	font-size:15px;
+	position:relative;  
+	background:#8EC110; 
+	color:#FFF;
+	padding:10px 20px 10px 20px;
+}
+
+.menu-last-header-bottom{
+	float:left;
+	font-size:15px;
+	position:relative;  
+	background:#8EC110; 
+	color:#FFF;
+	padding:10px 42px 10px 20px;
+}
+/*
+.carrousel1-main{
+	width:320px;
+}
+
+.carrousel2-main{
+	width:320px;
+}
+
+.slider-main{
+	position:relative;
+	float:right;
+	margin-top:-250px;
+	width:680px;
+}
+*/
+#logo  {
+	border:none;
+	float:left; 
+	margin:20px 0 20px  20px; 
+	padding:0px; 
+}
+
+#logo-colombia {
+	border:none;
+	float:right; 
+	margin:20px 20px 20px  0; 
+	padding:0px; 
+}
+
+#container-sidebar {
+	width:775px; 
+	float:right; 
+}
+
+.content-boxed {
+	padding:0px 10px 10px 10px;
+}
+
+#sidebar {width:225px; float:left; background-color:#F4F5F2; color:#666666; }
+#sidebar .content-boxed {margin-bottom:30px;}
+#sidebar ul {margin:0px; padding:0px; list-style:none;}
+#sidebar ul li {padding:10px 0px 10px 20px; margin:0px; border-bottom:1px dotted #d7d7d7; background:url(../images/sidebar-list.png) 0px 10px no-repeat; line-height:1.2;}
+#sidebar a:hover {filter: alpha(opacity=80);-moz-opacity: 0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+
+#sidebar-notice {width:270px; float:left; background-color:#FFF; color:#666666; }
+#sidebar-notice .content-boxed {margin-bottom:30px; margin-top:10px;}
+#sidebar-notice ul {margin:0px; padding:0px; list-style:none;}
+#sidebar-notice ul li {padding:10px 0px 10px 10px; margin:0px; line-height:1.2;}
+#sidebar-notice a:hover {filter: alpha(opacity=80);-moz-opacity: 0.8;-khtml-opacity: 0.8;opacity: 0.8;}
+
+#sidebar-radio {width:230px; float:left; background-color:#FFF; color:#666666; }
+#sidebar-radio .content-boxed {margin-bottom:30px; margin-top:10px;}
+#sidebar-radio ul {margin:0px; padding:0px; list-style:none;}
+#sidebar-radio ul li {padding:10px 0px 10px 10px; margin:0px; line-height:1.2;}
+
+
+#sidebar-right {width:225px; float:right; background-color:#F4F5F2; color:#666666; font-size:12px; }
+#sidebar-right .content-boxed {padding:0px;margin-bottom:30px;}
+#sidebar-right ul {margin:0px; padding:0px; list-style:none;}
+#sidebar-right ul li {padding:10px 0px 10px 10px; margin:0px;}
+#sidebar-right ul li:hover { background-color:#666666; color:#F4F5F2;}
+#sidebar-right-active { background-color:#666666; color:#F4F5F2;}
+
+#sidebar-left {width:775px; float:left; background-color:#FFF;}
+
+.banner-boxed{
+	width:1000px;
+	clear:left;
+}
+
+.footer{
+	clear:left;
+	clear:right;
+	background-color:#FFF;
+	width:1000px;
+	margin:auto;
+}
+
